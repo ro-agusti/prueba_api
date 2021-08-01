@@ -1,0 +1,62 @@
+Base de Datos Nombre: "prueba_api"
+
+Tabla: "usuarios"
+NOMBRE        TIPO
+-----------------------------------------------------------
+id           int(11)            PRIMARY KEY - AUTOINCREMENT
+username     vachar(50)
+password     varcahar(50)
+role         enum[ADMIN, USER]
+-----------------------------------------------------------
+
+Tabla: "articulos"
+NOMBRE        TIPO
+-----------------------------------------------------------
+id           int(11)            PRIMARY KEY - AUTOINCREMENT
+nombre       vachar(50)
+precio       int(5)
+-----------------------------------------------------------
+
+
+Insertar en tabla "usuarios":
+-----------------------------------------------------------
+id           
+username     administrador
+password     password
+role         ADMIN
+
+id           
+username     usuario
+password     password
+role         USER
+-----------------------------------------------------------
+
+###########################################################
+
+Insertar en tabla "usuarios":
+-----------------------------------------------------------
+id           
+username     administrador
+password     password
+role         ADMIN
+
+id           
+username     usuario
+password     password
+role         USER
+-----------------------------------------------------------
+
+Insertar en tabla "articulos":
+-----------------------------------------------------------
+id           
+nombre       AAA
+precio       100
+
+id           
+nombre       BBB
+precio       200
+
+id           
+nombre       CCC
+precio       300
+-----------------------------------------------------------
